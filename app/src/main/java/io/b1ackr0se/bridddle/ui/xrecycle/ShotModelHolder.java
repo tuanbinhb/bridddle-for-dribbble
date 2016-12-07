@@ -12,6 +12,7 @@ public class ShotModelHolder extends XModelHolder {
 
     @BindView(R.id.shot_image) public AspectRatioImageView shotImageView;
     @BindView(R.id.gif_indicator) public TextView gifIndicator;
+        
 
     @Override
     public void bindView(View itemView) {
